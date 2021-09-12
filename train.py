@@ -62,7 +62,7 @@ def main():
                 std=[1.0, 1.0, 1.0],
                 max_pixel_value=255.0,
             ),
-            albumentations.pytorch.ToTensorV2(),
+            ToTensorV2(),
         ],
     )
 
@@ -74,7 +74,7 @@ def main():
                 std=[1.0, 1.0, 1.0],
                 max_pixel_value=255.0,
             ),
-            albumentations.pytorch.ToTensorV2(),
+            ToTensorV2(),
         ],
     )
 
